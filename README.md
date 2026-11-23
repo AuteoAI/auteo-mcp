@@ -2,6 +2,8 @@
 
 [Auteo](https://auteo.ai) is an AI-native creative suite. Its remote MCP server lets assistants generate images, video, music, and spoken audio from prompts.
 
+Generate instrumentals or songs with vocals using [YuE2](https://auteo.ai/models/yue2) or the [free AI music generator](https://auteo.ai/apps/free-ai-music-generator). In the browser, you can also create covers with the [AI song cover generator](https://auteo.ai/apps/ai-song-cover-generator) and draft lyrics with the [AI lyrics generator](https://auteo.ai/apps/ai-lyrics-generator).
+
 ## Connect
 
 - **Endpoint:** `https://auteo.ai/api/mcp`
