@@ -98,6 +98,12 @@ In Cascade’s MCP menu, select **Open MCP config file**. Add the following entr
 
 [Windsurf MCP configuration reference](https://docs.devin.ai/windsurf/plugins/cascade/mcp#remote-http-mcps)
 
+## Kiro
+
+Set AUTEO_API_KEY in the environment that launches Kiro, then restart Kiro so it can read the variable. Open [Add Auteo to Kiro](https://kiro.dev/launch/mcp/add?name=auteo&config=%7B%22url%22%3A%22https%3A%2F%2Fauteo.ai%2Fapi%2Fmcp%22%2C%22headers%22%3A%7B%22Authorization%22%3A%22Bearer+%24%7BAUTEO_API_KEY%7D%22%7D%7D) to install the remote MCP server. Kiro uses the variable in the Authorization header.
+
+[Privacy Policy](https://auteo.ai/privacy-policy) · [Support](mailto:team@auteo.ai)
+
 ## Tools
 
 | Tool | What it does |
