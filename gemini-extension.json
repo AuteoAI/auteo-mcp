@@ -1,0 +1,21 @@
+{
+  "name": "auteo",
+  "version": "1.0.0",
+  "description": "Generate AI music, images, video, and speech with Auteo MCP.",
+  "mcpServers": {
+    "auteo": {
+      "httpUrl": "https://auteo.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AUTEO_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Auteo API key",
+      "description": "Create a key at https://auteo.ai/me/settings#api-keys and paste it without the Bearer prefix.",
+      "envVar": "AUTEO_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
