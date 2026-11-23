@@ -137,3 +137,5 @@ Generation uses your Auteo credits. Ask for an estimate first if you want to rev
 - [AuteoAI/skills](https://github.com/AuteoAI/skills)
 
 [`server.json`](server.json) contains the MCP Registry manifest. Publication to the Registry is pending.
+
+See [Cline installation](llms-install.md) for Streamable HTTP setup and a read-only model-list check.
