@@ -102,6 +102,16 @@ In Cascade’s MCP menu, select **Open MCP config file**. Add the following entr
 
 Set AUTEO_API_KEY in the environment that launches Kiro, then restart Kiro so it can read the variable. Open [Add Auteo to Kiro](https://kiro.dev/launch/mcp/add?name=auteo&config=%7B%22url%22%3A%22https%3A%2F%2Fauteo.ai%2Fapi%2Fmcp%22%2C%22headers%22%3A%7B%22Authorization%22%3A%22Bearer+%24%7BAUTEO_API_KEY%7D%22%7D%7D) to install the remote MCP server. Kiro uses the variable in the Authorization header.
 
+### DeepSeek Harness
+
+Install the [`@auteo/dsh-plugin`](dsh-plugin/) bundle plugin to add the Auteo remote MCP server to a DSH profile:
+
+```sh
+dsh plugin --profile tui add @auteo/dsh-plugin
+```
+
+See [`dsh-plugin/`](dsh-plugin/) for configuration and details.
+
 [Privacy Policy](https://auteo.ai/privacy-policy) · [Support](mailto:team@auteo.ai)
 
 ## Tools

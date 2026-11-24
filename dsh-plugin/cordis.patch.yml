@@ -1,0 +1,12 @@
+- insert:
+    - id: mcp-auteo
+      name: "@deepseek-ai/dsh-mcp-client"
+      inject: [credentials]
+      config:
+        serverName: auteo
+        transport: streamable-http
+        url: https://auteo.ai/api/mcp
+        expandTemplates: true
+        headers:
+          Authorization: "Bearer ${credential:AUTEO_API_KEY}"
+        startupTimeoutMs: 10000
